@@ -1,0 +1,111 @@
+/* Melanie Cascante */
+
+
+h1 {
+position: absolute;
+width: 220px;
+height: 100px;
+left: 16px;
+top: 104px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 100%;
+/* or 50px */
+
+
+color: #1A2236;
+}
+
+    /* ic_menu */
+
+.ic_menu {
+position: absolute;
+width: 20px;
+height: 14px;
+left: 284px;
+top: 19px;
+
+background: #1A2236;
+}
+
+/* greeting */
+
+.greeting {
+    position: absolute;
+width: 288px;
+height: 126px;
+left: 16px;
+top: 224px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: -0.01em;
+
+color: #1A2236;
+}
+
+/* start collaboration box */
+
+.start_box {
+position: absolute;
+width: 203.68px;
+height: 26.47px;
+left: 58px;
+top: 402px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+/* image_geometry_1 */
+
+.geometrytop {
+    
+position: absolute;
+width: 111px;
+height: 74px;
+left: 0px;
+top: 0px;
+}
+
+   /* image_geometry_2 */
+
+.geometrybottom {
+ 
+position: absolute;
+width: 320px;
+height: 160px;
+left: 0px;
+top: 472px;
+
+}
+
+/* Rectangle 20 */
+
+.start_box {
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 288px;
+    height: 50px;
+    left: 16px;
+    top: 390px;
+    
+    background: #1A2236;
+
+    }
+
+    
+    
