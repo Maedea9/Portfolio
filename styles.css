@@ -2,19 +2,17 @@
 
 
 h1 {
-position: absolute;
 width: 220px;
 height: 100px;
-left: 16px;
-top: 104px;
+display: flex;
+padding-top: 50px;
+
 
 font-family: 'Playfair Display';
 font-style: normal;
 font-weight: 400;
 font-size: 50px;
 line-height: 100%;
-/* or 50px */
-
 
 color: #1A2236;
 }
@@ -22,23 +20,25 @@ color: #1A2236;
     /* ic_menu */
 
 .ic_menu {
-position: absolute;
-width: 20px;
-height: 14px;
-left: 284px;
-top: 19px;
 
-background: #1A2236;
+padding-top: 15px ;
+padding-left: 60px;
+background: #fafafa;
+
 }
 
 /* greeting */
 
 .greeting {
-    position: absolute;
-width: 288px;
-height: 126px;
-left: 16px;
-top: 224px;
+
+box-sizing: border-box;
+
+display:flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
+background: #ffffff;
+flex: 1;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -46,25 +46,35 @@ font-weight: 400;
 font-size: 14px;
 line-height: 21px;
 letter-spacing: -0.01em;
+padding-top: 0px;
+padding-right: 150px;
+padding-bottom: 20px;
 
 color: #1A2236;
+
 }
 
 /* start collaboration box */
 
 .start_box {
-position: absolute;
-width: 203.68px;
-height: 26.47px;
-left: 58px;
-top: 402px;
+
+box-sizing: border-box;
+    
+display:inline-flex;
+align-content: center;
+justify-content: center;
+background: #1A2236;
 
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
-font-size: 16px;
+font-size: 20px;
 line-height: 24px;
 text-align: center;
+padding-top: 20px;
+padding-bottom: 15px;
+padding-right: 70px;
+padding-left: 75px;
 
 color: #FFFFFF;
 }
@@ -72,40 +82,41 @@ color: #FFFFFF;
 /* image_geometry_1 */
 
 .geometrytop {
-    
+
 position: absolute;
+order: 0;
 width: 111px;
 height: 74px;
 left: 0px;
 top: 0px;
+
 }
 
    /* image_geometry_2 */
 
 .geometrybottom {
- 
-position: absolute;
+
 width: 320px;
 height: 160px;
 left: 0px;
 top: 472px;
-
+align-self: flex-end;
+padding-top: 50px;
 }
+
 
 /* Rectangle 20 */
 
-.start_box {
+
+.box a {
     box-sizing: border-box;
-    
-    position: absolute;
-    width: 288px;
-    height: 50px;
-    left: 16px;
-    top: 390px;
-    
+    display:flex;
+    padding-left: 10px;
     background: #1A2236;
-
-    }
-
     
+}
+
+.wrapper {
+    display: flex;
+}
     
